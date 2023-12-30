@@ -1,0 +1,50 @@
+.navbar{
+    margin-top: 5px;
+h2{
+    font-size: 2rem;
+    margin: 20px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 30%;
+    
+    .icon{
+        background-color: rgb(227, 235, 235);
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0;
+    }
+    .user{
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        height: 30px;
+        padding: 5px 15px;
+        font-size: 1rem;
+
+        background-color: rgb(227, 235, 235);
+        // border-bottom-right-radius: 15% ;
+        // border-top-right-radius: 15% ;
+        border-radius: 40px;
+        position: relative;
+        margin: 0 20px;
+        h3{
+            padding: 0 10px;
+            font-weight: 500;
+        }
+        img{
+            height: 60px;
+            // border: 1px dashed black;
+            // border-radius: 50%;
+            padding: 10px;
+            // positioning of avatar
+            position: absolute;
+            top: -50%;
+            left: -35%;
+        }
+        
+    }
+}
+}

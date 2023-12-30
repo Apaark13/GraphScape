@@ -1,0 +1,9 @@
+@import '../../../node_modules/react-big-calendar/lib/sass/event.scss';
+@import '../../../node_modules/react-big-calendar/lib/sass/styles.scss';
+@import "../utility.scss";
+.rbc-event, .rbc-day-slot, .rbc-background-event{
+    @extend .rbc-ellipsis !optional;
+    padding: 0px 5px;
+    background-color: $bg;
+    font-size: 0.75rem;
+}

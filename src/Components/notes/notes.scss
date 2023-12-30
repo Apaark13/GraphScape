@@ -1,0 +1,18 @@
+/* src/components/EditorComponent.css */
+
+/* Style the editor container */
+#editor {
+    // background-color: #f0f8ff; /* Set your desired background color */
+    align-self: flex-start;
+  }
+  
+  /* Style each line in the editor */
+  .codex-editor .ce-block {
+    border-left: 4px solid #ff4400; /* Set your desired line color */
+    padding-left: 8px; /* Adjust padding as needed */
+    margin: 5px 0;
+    background: rgb(255, 255, 255);
+    min-width: 90vw;
+
+  }
+  

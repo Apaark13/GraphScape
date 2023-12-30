@@ -1,0 +1,50 @@
+
+    .logoimg{
+        filter: grayscale(100%);
+        border-radius: 18px;
+        height: 50px;
+        padding: 19px 19px;
+        margin: 10px 0;
+        align-self: center;
+        background-color: aliceblue;
+        color: black;
+        font-size: 2rem;
+    }
+    .logo{
+        margin: 10px 0;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .iconlogo{
+            font-size: 1.2rem;
+        }
+        .icon{
+            
+            padding:10px 30px;
+            margin: 10px 0;
+            font-size: 1.2rem;
+            &:hover{
+                font-size: 1.3rem;
+                filter: brightness(120%);
+                border-left: 3px solid white;
+            }
+            &.active{
+                border-left: 3px solid white;
+                // font-size: 1.3rem;
+                filter: brightness(120%);
+            }
+        }
+    }
+    .logout{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icon{
+            margin: auto;
+            padding: 10px 30px;
+            font-size: x-large;
+        }
+    }
