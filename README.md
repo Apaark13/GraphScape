@@ -13,9 +13,14 @@ Welcome to GraphScape, a cutting-edge React Admin Dashboard that combines sleek 
   - Interactive widgets for seamless data visualization.
   - Modern design with a focus on user experience.
 
+![dashboard view](https://i.ibb.co/MVHsYHR/Orange-White-Cooking-Recipe-You-Tube-Thumbnail-4.png)
+
+
 - **Calendar Page:**
   - Dynamic views - month, week, day, and agenda.
   - Advanced event management features.
+
+![calander view](https://i.ibb.co/QfjkpcC/Screenshot-2023-12-30-223329.png)
 
 - **Notes Page:**
   - WYSIWYG editor for rich-text note-taking.
