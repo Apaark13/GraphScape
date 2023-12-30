@@ -42,75 +42,75 @@ import "./notes.scss"
 // export default Notes;
 // src/components/EditorComponent.js// src/components/EditorComponent.js
 // src/components/EditorComponent.js
-import React, { useRef, useEffect } from 'react';
-import EditorJs from '@editorjs/editorjs';
-import Header from '@editorjs/header';
-import List from '@editorjs/list';
-import Checklist from '@editorjs/checklist';
-import Embed from '@editorjs/embed';
-import Quote from '@editorjs/quote';
-import SimpleImage from '@editorjs/simple-image';
-import LinkTool from '@editorjs/link';
-import RawTool from '@editorjs/raw';
+// import React, { useRef, useEffect } from 'react';
+// import EditorJs from '@editorjs/editorjs';
+// import Header from '@editorjs/header';
+// import List from '@editorjs/list';
+// import Checklist from '@editorjs/checklist';
+// import Embed from '@editorjs/embed';
+// import Quote from '@editorjs/quote';
+// import SimpleImage from '@editorjs/simple-image';
+// import LinkTool from '@editorjs/link';
+// import RawTool from '@editorjs/raw';
 
 const EditorComponent = () => {
-  const editorInstance = useRef(null);
-  useEffect(() => {
-    if (!editorInstance.current) {
-  editorInstance.current = new EditorJs({
-    holder: 'editor',
-    tools: {
-      header: {
-        class: Header,
-        config: {
-          placeholder: 'Enter a header',
-        },
-      },
-      list: {
-        class: List,
-        inlineToolbar: true,
-      },
-      checklist: {
-        class: Checklist,
-        inlineToolbar: true,
-      },
-      embed: {
-        class: Embed,
-        config: {
-          services: {
-            youtube: true,
-            coub: true,
-            codepen: true,
-            // Add more embed services as needed
-          },
-        },
-      },
-      quote: {
-        class: Quote,
-        inlineToolbar: true,
-      },
-      image: {
-        class: SimpleImage,
-        inlineToolbar: true,
-      },
-      linkTool: {
-        class: LinkTool,
-        config: {
-          endpoint: 'https://your-link-endpoint', // Replace with your actual endpoint
-        },
-      },
-      raw: RawTool,
-      // Add more tools as needed
-    },
-  });
-}
-  return () => {
-    // Clean up resources and events
-    if (editorInstance.current) {
-      // Perform any necessary cleanup here
-    }
-  };
-}, []); // The empty dependency array ensures that this effect runs only once during mounting
+//   const editorInstance = useRef(null);
+//   useEffect(() => {
+//     if (!editorInstance.current) {
+//   editorInstance.current = new EditorJs({
+//     holder: 'editor',
+//     tools: {
+//       header: {
+//         class: Header,
+//         config: {
+//           placeholder: 'Enter a header',
+//         },
+//       },
+//       list: {
+//         class: List,
+//         inlineToolbar: true,
+//       },
+//       checklist: {
+//         class: Checklist,
+//         inlineToolbar: true,
+//       },
+//       embed: {
+//         class: Embed,
+//         config: {
+//           services: {
+//             youtube: true,
+//             coub: true,
+//             codepen: true,
+//             // Add more embed services as needed
+//           },
+//         },
+//       },
+//       quote: {
+//         class: Quote,
+//         inlineToolbar: true,
+//       },
+//       image: {
+//         class: SimpleImage,
+//         inlineToolbar: true,
+//       },
+//       linkTool: {
+//         class: LinkTool,
+//         config: {
+//           endpoint: 'https://your-link-endpoint', // Replace with your actual endpoint
+//         },
+//       },
+//       raw: RawTool,
+//       // Add more tools as needed
+//     },
+//   });
+// }
+//   return () => {
+//     // Clean up resources and events
+//     if (editorInstance.current) {
+//       // Perform any necessary cleanup here
+//     }
+//   };
+// }, []); // The empty dependency array ensures that this effect runs only once during mounting
 
 
   return <>

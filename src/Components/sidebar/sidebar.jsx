@@ -2,7 +2,7 @@ import React from "react";
 import "./sidebar.scss";
 import DashboardOutlinedIcon from "@mui/icons-material/DashboardOutlined";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
-import LeaderboardOutlinedIcon from "@mui/icons-material/LeaderboardOutlined";
+// import LeaderboardOutlinedIcon from "@mui/icons-material/LeaderboardOutlined";
 import ViewInArOutlinedIcon from "@mui/icons-material/ViewInArOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
@@ -24,9 +24,9 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="logo">
-        {/* <img src="https://png.pngtree.com/template/20190316/ourmid/pngtree-books-logo-image_79143.jpg" alt="" srcset="" />
-         */}
-        <StackedBarChartOutlinedIcon className="logoimg" />
+        <img src="/logo.png" alt="" srcset="" />
+        
+        {/* <StackedBarChartOutlinedIcon className="logoimg" /> */}
       </div>
       <div className="icons">
       {links.map((link, index) => (

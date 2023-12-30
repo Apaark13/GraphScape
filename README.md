@@ -3,7 +3,7 @@ GraphScape: Unleash admin prowess with React.js and Sass. Seamless data visualiz
 
 # GraphScape - Your Ultimate React Admin Dashboard
 
-![GraphScape Logo](link_to_logo.png)
+![GraphScape Logo]()
 
 Welcome to GraphScape, a cutting-edge React Admin Dashboard that combines sleek design with powerful features to elevate your data management experience.
 
@@ -22,10 +22,12 @@ Welcome to GraphScape, a cutting-edge React Admin Dashboard that combines sleek 
   - Effortless creation and organization of notes.
 
 - **Documentation Page:**
+  - to be done 
   - Step-by-step blog-style documentation.
   - Insights into development decisions.
 
 - **Users Page:**
+  - to be done 
   - Customizable user settings.
   - Tailor the dashboard to your preferences.
 
@@ -40,7 +42,7 @@ Welcome to GraphScape, a cutting-edge React Admin Dashboard that combines sleek 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/GraphScape.git
+   git clone https://github.com/Apaark13/GraphScape.git
    ```
 
 2. Install dependencies:
