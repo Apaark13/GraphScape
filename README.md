@@ -27,6 +27,8 @@ LIVE on: https://graphscape.onrender.com/
   - WYSIWYG editor for rich-text note-taking.
   - Effortless creation and organization of notes.
 
+![notes view](https://i.ibb.co/7tj63p8/Screenshot-2023-12-30-230020.png)
+
 - **Documentation Page:**
   - to be done 
   - Step-by-step blog-style documentation.
