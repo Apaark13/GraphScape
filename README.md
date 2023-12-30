@@ -3,7 +3,7 @@ GraphScape: Unleash admin prowess with React.js and Sass. Seamless data visualiz
 
 # GraphScape - Your Ultimate React Admin Dashboard
 
-![GraphScape Logo]()
+![GraphScape Logo]("https://raw.githubusercontent.com/Apaark13/GraphScape/main/public/logo.png")
 
 Welcome to GraphScape, a cutting-edge React Admin Dashboard that combines sleek design with powerful features to elevate your data management experience.
 
